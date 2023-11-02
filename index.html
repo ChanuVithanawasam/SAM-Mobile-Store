@@ -1,148 +1,234 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
+
 <head>
+    <title>SAM Mobile | Store</title>
+
+    <!--    assign view port size-->
+    <meta name="viewport" content="width=device-width, user-scalable=yes,
+    initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--    character set-->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="title">Mobile Cargo | Online Mobile Phone Market Place</title>
-    <link rel="shortcut icon" href="Images/Mobile - Cargo logo.png">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="Images/SAM Mobile Logo..jpg">
+
+    <!--    search engin optimisation-->
+    <meta name="keyword" content="SAM, Mobile, Store, Galle, Dikkumbura, Phone, Shop">
+
+    <meta name="description" content="SAM Mobile Store">
+
+    <meta name="owner" content="SAM MObile Store">
+
+    <meta name="author" content="SAM Mobile Store ">
+
+    <meta name="theme-color" content="red">
+
+    <meta name="robots" content="index,follow">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <script src="assets/font/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=DM+Sans:opsz,wght@9..40,100;9..40,800&family=PT+Sans+Narrow&family=PT+Serif&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
-<body>
-    <section id="header">
-        <a href="index.html"><img src="Images/Mobile - Cargo logo.png" class="logo"></a>
 
+<!--sectioning root-->
+<body id="body">
+
+<header id="header">
+           <!-- header icon
+    <div>
+        <img id="headderIcon" src="assets/images/headerIcon.png" alt="header icon in hear">
+    </div> -->
+
+    <!-- <p id="visitors"><span>Page visitors :</span><p id="count">0</p></p> -->
+
+    <!--        navigation-->
+    <nav>
         <div>
-            <ul id ="navbar">
-                <a href="index.html"><li class="active">Home</li></a>
-                <a href="products.html"><li>Products</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-                <a href="cart.html"><li>Cart</li></a>
-                <a href="account.html"><li>Account</li></a>
-            </ul>
+            <menu>
+                <li><a href="#home-section"><i
+                        class="fa-solid fa-house animate__animated animate__swing animate__infinite animate__slower"></i>&nbsp;&nbsp;Home</a>
+                </li>
+                <li><a href="#about-section"><i
+                        class="fa-solid fa-address-card animate__animated animate__swing animate__infinite animate__slower	"></i>&nbsp;&nbsp;About</a>
+                </li>
+                <li><a href="#services"><i
+                        class="fa-solid fa-layer-group animate__animated animate__swing animate__infinite animate__slower	"></i>&nbsp;&nbsp;Services</a>
+                </li>
+                <li><a href="#products-section"><i
+                        class="fa-solid fa-file-shield animate__animated animate__swing animate__infinite animate__slower	"></i>&nbsp;&nbsp;Products</a>
+                </li>
+                <li><a href="#contact-section"><i
+                        class="fa-solid fa-phone animate__animated animate__swing animate__infinite animate__slower	"></i>&nbsp;&nbsp;Contact</a>
+                </li>
+            </menu>
         </div>
-    </section>    
+    </nav>
+</header>
 
-    <section id="home-content">
-        <div class="home-text">
-            <h4>Welcome to</h4>
-            <h3>Online Mobile Phone Market</h3>
-            <h1>Mobile - Cargo</h1>
-            <p>Be Connected to Universal Village, Get your likes form Us.</p>
-        </div>
-        <div class="home-4to">
-            <img src="Images/bg-image.jpg" >
-        </div>
-    </section>
+<main id="main">
 
-    <section id="product">
-        <div id="pro-text">
-            <h1>Our Selling Brands</h1>
+    <div class="background"></div>
+    <div id="loading">
+        <div id="loading-image">
+            <img src="assets/images/icons8-running.gif" alt="Loading..."/>
+            <h3>Loading...</h3>
         </div>
-        <div class="product-images">
-            <a href="appleproductone.html"><img src="Images/apple.jfif"></a> 
-            <a href="huaweiproductone.html"><img src="Images/huawei-logo.png"></a>
-            <a href="Xiaomiproductone.html"><img src="Images/mi-logo.png"></a>
-            <a href="Nokiaproductone.html"><img src="Images/nokia-logo.jpg"></a>
-            <a href="Samsungproductone.html"><img src="Images/samsung-logo.png"></a>
-            <a href="Zteproductone.html"><img src="Images/ZTE.jpg"></a>
-        </div>
-    </section>
 
-    <section id="dis-banner">
-        <h4>Order Online</h4>
-        <h2>Get up to <span>20%</span> discount!</h2>
-        <a href="products.html"><button>Explore Products</button></a>
-    </section>
-
-    <section id="comments">
-        <p class="cmt-p">Valuable Comments for Valuable Service</p>
-        <div id="cm-block">
-            <div id="cmt"> 
-                <i class="fa fa-quote-left" aria-hidden="true"></i><p></p><br>
-                <p id="cm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit, nisi deleniti ratione quas possimus cumque aspernatur culpa temporibus laudantium ab aperiam expedita eligendi quis unde neque vero ducimus atque.</p>
-                <img id="cmt-4to" src="Images/user.png" >
-                <p>Rating</p>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                <i class="fa fa-star-o" aria-hidden="true"></i>
-            </div>
-            <div id="cmt">
-                <i class="fa fa-quote-left" aria-hidden="true"></i><p></p><br>
-                <p id="cm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit, nisi deleniti ratione quas possimus cumque aspernatur culpa temporibus laudantium ab aperiam expedita eligendi quis unde neque vero ducimus atque.</p>
-                <img id="cmt-4to" src="Images/user.png" >
-                <p>Rating</p>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-o" aria-hidden="true"></i>
-            </div>
-            <div id="cmt">
-                <i class="fa fa-quote-left" aria-hidden="true"></i><p></p><br>
-                <p id="cm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit, nisi deleniti ratione quas possimus cumque aspernatur culpa temporibus laudantium ab aperiam expedita eligendi quis unde neque vero ducimus atque.</p>
-                <img id="cmt-4to" src="Images/user.png" >
-                <p>Rating</p>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-o" aria-hidden="true"></i>
-                <i class="fa fa-star-o" aria-hidden="true"></i>
+    </div>
+    <!--    header section-->
+    <section class="home-section">
+        <dfn id="home-section"></dfn>
+        <!--                background and button-->
+        <div class="curve">
+            <div class="custom-shape-divider-bottom-1693915055">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                     preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                          class="shape-fill"></path>
+                </svg>
             </div>
         </div>
-    </section>
 
-    <section id="newsletter">
-        <div id="news-text">
-            <h3>Stay Connected With Us & Sign Up</h3>
-            <p>Get E-mails about our latest updates and <span>Special Offers</span></p>
-        </div>
-        <div class="news-input">
-            <input id="news-input-text" type="text" placeholder="Your E-mail Address" >
-            <button id="sub-btn">Submit</button>
-        </div>
-    </section>
+        <section>
 
-    <section id="fotter-banner">
-        <div id="col">
-            <img src="Images/Mobile - Cargo logo.png" >
-            <div id="follow">
-                <h4>Follow Us</h4>
-                <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <section>
+                <h1>SAM Mobile Store</h1>
+                <aside>
+                    <div>
+                        <h1 id="typeName" class="sourcecode"></h1>
+                    </div>
+                    <div class="Namline">
+                        <h1 class="firstNam">SAM</h1>
+                        <h2 class="lastNam"> Mobile</h2>
+                        <h2 class="lastNam2"> Store</h2>
+                    </div>
+                    <b class="Title">"Your Gateway to Tech Delights"</b>
+                    <small class="paragraph1">
+                        <br> "Welcome to our Mobile Store, your one-stop destination for all your smartphone needs. Explore a wide range of the latest mobile phones, from top brands to budget-friendly options. Discover stylish accessories, powerful features, and competitive prices that cater to every mobile user. We are committed to providing you with the best in mobile technology and customer satisfaction. Start your mobile journey with us today!" <br>
+                    </small>
+                </p>
+            </div>
+                    <div class="social-media">
+                        <a target="_blank" href="https://www.instagram.com/chanu_vithanawasam/"><i class='bx bxl-instagram'></i></a>
+                        <a target="_blank" href="https://web.facebook.com/chanu.vithanawasam"><i class='bx bxl-facebook'></i></a>
+                        <a target="_blank" href="mailto:chanumadhuprasanna99@gmail.com"><i class='bx bxl-gmail'></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/chanu-vithanawasam-1b926627b/"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                    <div>
+                        <a href="https://maps.app.goo.gl/umVeCK2bv5cX5EheA">
+                            <button>Location</button>
+                        </a>
+                    </div>
+
+                </aside>
+                 <!--More Information Button-->
+                    <div class="moresection">
+                    <div>
+                        <div class="animate__animated animate__pulse animate__infinite animate__slower"></div>
+                    <div>
+                    <img src="Images/karakena eka.png" alt="" >
+                            <button></button>
+                    </div>
+                    <div>
+                        <img src="Images/20231101_093057.png" alt="" >
+                    </div>
+                        </div>
+
+                        <!-- <div class="popball"></div>
+                        <div class="popball"></div>
+                        <div class="popball"></div>
+                        <div class="popball"></div>
+                        <div class="popball"></div> -->
+                    </div>
+            </section>
+
+
+            <section>
+
+                <div class="dark-button">
+                    <!--                    button-->
+                    <div>
+                        <label class="lable" for="Dark">Dark</label><br>
+                        <label class="switch">
+                            <input id="Dark" type="checkbox" checked>
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+            </section>
+        </section>
+
+    </section>
+    <!-- service section  -->
+    <section class="services" id="services">
+        <h2 class="heading"></h2>
+        <span>From us to you...</span>
+
+        <div class="services-container">
+            <div class="services-box">
+                <h3 class="scroll-animation">Mobile Phones</h3>
+                <p>
+                    "Experience innovation at your fingertips with our wide range of mobile phones.<br><br>  Discover the latest models from top brands,each packed with cutting-edge technology.<br><br>  From stunning displays and powerful processors to high-quality cameras and seamless connectivity, our mobile phones are designed to enrich your digital life.<br><br>  Choose the perfect device to match your style and needs, and stay connected in style with our exceptional selection of smartphones."
+                </p>
+            
+            </div>
+
+            <div class="services-box">
+                <h3>Accessories</h3>
+              <p>
+                <span style="color: darkgoldenrod">Protective Cases:</span><br> Keep your smartphone safe and stylish with our wide range of protective cases. Choose from sleek designs and rugged options to safeguard your device from everyday wear and tear.<br><br>
+                <span style="color: darkgoldenrod">Screen Protectors:</span><br> Shield your phone's screen from scratches and cracks with our durable screen protectors. Crystal clear and easy to apply, they offer an extra layer of defense.<br><br>
+                
+                <span style="color: darkgoldenrod">Chargers and Cables:</span><br> Stay charged and connected with our selection of high-quality chargers and cables. Whether you need a quick charge at home or on the go, we've got you covered.<br><br>
+                    
+                <span style="color: darkgoldenrod">Headphones and Earbuds:</span><br> Elevate your audio experience with our premium headphones and earbuds. Enjoy crystal-clear sound and immersive music and calls.<br><br>
+                    
+                <span style="color: darkgoldenrod">Power Banks:</span><br> Never run out of battery when you're out and about. Our power banks are compact and powerful, ensuring your phone stays charged when you need it most.<br><br>
+              </p>
+            </div>
+
+            <div class="services-box">
+                <h3>Repairing</h3>
+                <p>
+                    <span style="color: darkgoldenrod">Screen Replacement:<br></span> Cracked or shattered screen? Our expert technicians can replace your damaged screen with precision, restoring your phone's visual appeal.<br><br>
+
+                    <span style="color: darkgoldenrod">Battery Replacement:<br></span> If your phone's battery isn't holding a charge like it used to, we offer efficient battery replacement services to keep you powered up all day.<br>
+                    
+                    <span style="color: darkgoldenrod">Software Troubleshooting:<br></span> Facing software glitches or issues? Our team can diagnose and fix software problems, ensuring your device runs smoothly.<br><br>
+                    
+                    <span style="color: darkgoldenrod">Water Damage Repair:<br></span> Accidents happen. Trust us to repair water-damaged phones, salvaging your device and data.<br><br>
+                    
+                    <span style="color: darkgoldenrod">Component Repairs:<br></span> From camera issues to speaker problems, we provide comprehensive component repairs to restore your phone's functionality.<br><br>
+                </p>
             </div>
         </div>
-        <div id="col">
-            <h4>Contacts</h4>
-            <p><strong>Address:</strong>XXXX, XXXXXX Road, XXXXXX ,XXXXXX XX.</p>
-            <p><strong>Phone:</strong>07x-xxxxxxx / 07x-xxxxxxx</p>
-            <p><strong>Hours:</strong>09.00 - 18.00 Mon - Sat (Online - 24/7 Hours)</p>
-        </div>
-        <div id="col">
-            <h4>My Account</h4>
-            <a href="account.html">Sign In</a>
-            <a href="cart.html">View Cart</a>
-        </div>
-        <div id="col">
-            <h4>Quick Links</h4>
-            <a href="products.html">Special Offers</a>
-            <a href="products.html">Gift Cards</a>
-        </div>
     </section>
-
-    <footer id="fotter">
-            <div>
-                <p>Copyright &copy; 2022 Mobile - Cargo All Rights Reserved.</p>
-            </div>
-            <div>
-                <p>Design By Imalka Chandrasena (Student - HNDIT 2020/21 batch)</p>
-            </div>
-    </footer>
-    <script src="script.js"></script>
+    </main>
+           
+<script src="assets/jquary/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script src="assets/js/index.js"></script>
 </body>
 </html>

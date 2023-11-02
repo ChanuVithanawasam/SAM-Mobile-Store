@@ -11,8 +11,8 @@
     align-items: center;
     justify-content:space-between;
     padding: 10px 15px 10px 15px;
-    background: linear-gradient(to bottom,rgb(171, 167, 199),rgb(127, 187, 207));
-    box-shadow: 0px 0px 2px rgb(119, 139, 148);
+    background: linear-gradient(to bottom,rgb(171, 167, 199),rgb(247, 251, 252));
+    box-shadow: 0px 0px 2px rgb(199, 208, 212);
     z-index: 999;
     position:sticky;
     top: 0;
@@ -46,14 +46,14 @@
 }
 #navbar li:hover,
 #navbar li.active{
-    color: rgb(4, 47, 126);
+    color: rgb(233, 16, 16);
 }
 #navbar li.active::after,
 #navbar li:hover::after{
     content: "";
     width: 30%;
     height: 2px;
-    background: rgb(4, 47, 126);
+    background: rgb(226, 17, 17);
     position: absolute;
     bottom: -2px;
     left: 20px;
@@ -66,7 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background:radial-gradient(white,rgb(127, 187, 207));
+    background:radial-gradient(white,rgb(216, 224, 226));
 }
 .home-text{
     padding-left: 80px;
@@ -85,7 +85,7 @@ h1{
     border-radius:8px;
 }
 #product{
-    background-color: rgb(165, 235, 235);
+    background-color: rgb(192, 218, 218);
     height: 400px;
 }
 #pro-text{
@@ -99,7 +99,7 @@ h1{
 }
 .product-images{
     display: flex;
-    padding: 0px 0px 30px 15px;
+    padding: 0px 0px 0px 0px;
     flex-wrap: wrap;
 }
 .product-images img{
